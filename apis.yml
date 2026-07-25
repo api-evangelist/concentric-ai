@@ -1,9 +1,26 @@
 aid: concentric-ai
 name: Concentric AI
-description: 'Concentric AI is a company surfaced as a portfolio company of homebrew and added to the
-  API Evangelist network as a stub for enrichment. Sector: security. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Concentric AI provides an AI-driven data security governance platform built on its
+  proprietary Semantic Intelligence technology to autonomously discover, classify, monitor, and protect
+  sensitive data across cloud and on-premises environments. The agentless platform spans Data Security
+  Posture Management (DSPM), data loss prevention, data access governance, insider risk detection, and
+  generative-AI data security (covering Claude, ChatGPT, Microsoft Copilot, Google Gemini, and Perplexity),
+  connecting to 40+ data platforms and business applications including Snowflake, Amazon S3, Microsoft
+  365, Salesforce, ServiceNow, and Google Workspace. Backed by Homebrew, Concentric AI was recognized as
+  a 2026 Gartner Peer Insights Customers'' Choice for DSPM.'
 url: https://raw.githubusercontent.com/api-evangelist/concentric-ai/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://concentric.ai/wp-content/uploads/2024/10/concentric-featured.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +29,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Security
+- Data Security
+- Data Security Posture Management
+- Data Classification
+- Data Access Governance
+- Insider Risk
+- Generative AI Security
+- Compliance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/concentric-ai-domain-security.yml
 - type: Website
   url: https://www.concentric.ai
+- type: Blog
+  url: https://concentric.ai/blog/
+- type: TermsOfService
+  url: https://concentric.ai/terms/
+- type: PrivacyPolicy
+  url: https://concentric.ai/privacy-policy/
+- type: Support
+  url: https://concentric.ai/contact-us/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
