@@ -9,6 +9,17 @@ description: 'Concentric AI provides an AI-driven data security governance platf
   365, Salesforce, ServiceNow, and Google Workspace. Backed by Homebrew, Concentric AI was recognized as
   a 2026 Gartner Peer Insights Customers'' Choice for DSPM.'
 url: https://raw.githubusercontent.com/api-evangelist/concentric-ai/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
